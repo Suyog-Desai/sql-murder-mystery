@@ -1,8 +1,14 @@
 # 🕵️ SQL Murder Mystery  
 
-This mini-project is my walkthrough of the [SQL Murder Mystery](https://mystery.knightlab.com/) game.  
-Instead of crunching sales or customer data, I became a detective with nothing but SQL queries as my toolkit.  
-Each step below shows how data can reveal a bigger story.  
+A detective walkthrough of the SQL Murder Mystery game. Instead of crunching sales or customer data, I became a detective with nothing but SQL queries as my toolkit. Each step shows how data can reveal a bigger story when you ask the right questions.
+
+🔗 [Try It Yourself](https://mystery.knightlab.com) 
+
+---
+
+## The Case
+
+A murder took place in SQL City. The only clues are inside a relational database. No GUI, no hints — just SQL.
 
 ---
 
@@ -37,10 +43,37 @@ See query in `queries/step4_find_accomplice.sql`
 
 ---
 
+## SQL Concepts Demonstrated
+
+| Concept | Used In |
+|---------|---------|
+| Multi-table JOINs | Steps 2, 3, 4 |
+| Subqueries | Steps 3, 4 |
+| CTEs | Step 4 |
+| LIKE pattern matching | Steps 1, 2 |
+| Aggregations with GROUP BY | Step 3 |
+| Self joins | Step 4 |
+
+---
+
 ## 🎯 Key Takeaways  
 - SQL is more than just joins and filters — it’s a **problem-solving language**.  
 - Real-world analytics often mirrors detective work: asking the right questions and connecting unrelated data points.  
 - This game was both fun and great practice in structured query thinking.  
+
+---
+
+## Project Structure
+
+```
+sql-murder-mystery/
+├── queries/
+│   ├── step1_find_crime.sql
+│   ├── step2_find_witness.sql
+│   ├── step3_find_murderer.sql
+│   └── step4_find_accomplice.sql
+└── README.md
+```
 
 ---
 
@@ -56,3 +89,10 @@ See query in `queries/step4_find_accomplice.sql`
 
 ## 🏷️ Tags  
 #SQL #MiniProject #DataAnalytics #SQLQueries #ProblemSolving #LearningByDoing #FunWithSQL  
+
+---
+
+## Author
+
+**Suyog Desai** - [GitHub](https://github.com/Suyog-Desai) · [LinkedIn](https://linkedin.com/in/suyog-desai) · [Portfolio](https://suyogdesai.framer.website)
+
